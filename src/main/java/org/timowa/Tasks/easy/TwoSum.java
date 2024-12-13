@@ -1,6 +1,5 @@
 package org.timowa.Tasks.easy;
 
-import java.util.Arrays;
 
 public class TwoSum {
     public static int[] twoSum(int[] nums, int target) {
