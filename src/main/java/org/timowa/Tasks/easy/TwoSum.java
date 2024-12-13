@@ -17,8 +17,4 @@ public class TwoSum {
         }
         return null;
     }
-
-    public static void main(String[] args) {
-        System.out.println(Arrays.toString(twoSum(new int[]{3,2,4}, 6)));
-    }
 }

@@ -4,21 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ec3fa1f-aa20-47b1-8efa-d4f36ed37710" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/timowa/Tasks/easy/PalindromeNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/timowa/Tasks/easy/RemoveDuplicatesFromSortedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/timowa/Tasks/easy/RomanToInteger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/timowa/Tasks/easy/TwoSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/timowa/Tasks/easy/PalindromeNumberTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/timowa/Tasks/easy/RemoveDuplicatesFromSortedArrayTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/timowa/Tasks/easy/RomanToIntegerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/timowa/Tasks/easy/TwoSumTest.java" afterDir="false" />
+    <list default="true" id="0ec3fa1f-aa20-47b1-8efa-d4f36ed37710" name="Changes" comment="Add tests">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/timowa/Tasks/easy/BinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/timowa/Tasks/easy/BinarySearchTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/timowa/Tasks/easy/TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/timowa/Tasks/easy/TwoSum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +18,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Class" />
         <option value="JUnit5 Test Class" />
       </list>
     </option>
@@ -35,10 +26,22 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 6
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Timohani&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Timohani/leetcode.git&quot;,
+    &quot;accountId&quot;: &quot;c48c4821-273c-4f60-b767-c2c846e96ada&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2pwKDHC18cADd7HwZd1Dgd0yrGn" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -51,6 +54,7 @@
     "Application.RemoveDuplicatesFromSortedArray.executor": "Run",
     "Application.RomanToInteger.executor": "Run",
     "Application.TwoSum.executor": "Run",
+    "JUnit.BinarySearchTest.executor": "Run",
     "JUnit.PalindromeNumberTest.executor": "Run",
     "JUnit.RemoveDuplicatesFromSortedArrayTest.executor": "Run",
     "JUnit.RomanToIntegerTest.executor": "Run",
@@ -117,11 +121,29 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1733671578668</updated>
-      <workItem from="1733671580138" duration="1544000" />
+      <workItem from="1733671580138" duration="2022000" />
+      <workItem from="1734080983064" duration="875000" />
+      <workItem from="1734081894559" duration="199000" />
+      <workItem from="1734082111029" duration="275000" />
+      <workItem from="1734082451741" duration="514000" />
+      <workItem from="1734082986267" duration="1282000" />
     </task>
+    <task id="LOCAL-00001" summary="Add tests">
+      <option name="closed" value="true" />
+      <created>1733673444029</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1733673444029</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add tests" />
   </component>
 </project>
