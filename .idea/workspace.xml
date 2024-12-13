@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ec3fa1f-aa20-47b1-8efa-d4f36ed37710" name="Changes" comment="Add tests">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/timowa/Tasks/easy/BinarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/timowa/Tasks/easy/BinarySearchTest.java" afterDir="false" />
+    <list default="true" id="0ec3fa1f-aa20-47b1-8efa-d4f36ed37710" name="Changes" comment="remove useless import">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/timowa/Tasks/easy/TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/timowa/Tasks/easy/TwoSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/timowa/Tasks/easy/RemoveDuplicatesFromSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/timowa/Tasks/easy/RemoveDuplicatesFromSortedArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/timowa/Tasks/easy/RemoveDuplicatesFromSortedArrayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/timowa/Tasks/easy/RemoveDuplicatesFromSortedArrayTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -49,32 +48,37 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.RemoveDuplicatesFromSortedArray.executor": "Run",
-    "Application.RomanToInteger.executor": "Run",
-    "Application.TwoSum.executor": "Run",
-    "JUnit.BinarySearchTest.executor": "Run",
-    "JUnit.PalindromeNumberTest.executor": "Run",
-    "JUnit.RemoveDuplicatesFromSortedArrayTest.executor": "Run",
-    "JUnit.RomanToIntegerTest.executor": "Run",
-    "JUnit.TwoSumTest.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/Тихон/IdeaProjects/leetcode/src/main/java/org/timowa/Main.java",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.RemoveDuplicatesFromSortedArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RomanToInteger.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TwoSum.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BinarySearchTest.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.PalindromeNumberTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RemoveDuplicatesFromSortedArrayTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RomanToIntegerTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TwoSumTest.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.codeium.enabled&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Тихон/IdeaProjects/leetcode/src/main/java/org/timowa/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.completion&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -126,7 +130,20 @@
       <workItem from="1734081894559" duration="199000" />
       <workItem from="1734082111029" duration="275000" />
       <workItem from="1734082451741" duration="514000" />
-      <workItem from="1734082986267" duration="1282000" />
+      <workItem from="1734082986267" duration="1934000" />
+      <workItem from="1734084960529" duration="268000" />
+      <workItem from="1734085248895" duration="751000" />
+      <workItem from="1734086026810" duration="78000" />
+      <workItem from="1734086136798" duration="277000" />
+      <workItem from="1734086440033" duration="22000" />
+      <workItem from="1734086493680" duration="290000" />
+      <workItem from="1734086810719" duration="280000" />
+      <workItem from="1734087112311" duration="130000" />
+      <workItem from="1734087261778" duration="60000" />
+      <workItem from="1734087337029" duration="23000" />
+      <workItem from="1734087418610" duration="30000" />
+      <workItem from="1734087466444" duration="422000" />
+      <workItem from="1734087918286" duration="1113000" />
     </task>
     <task id="LOCAL-00001" summary="Add tests">
       <option name="closed" value="true" />
@@ -136,14 +153,43 @@
       <option name="project" value="LOCAL" />
       <updated>1733673444029</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add BinarySearch, remove main from TwoSum">
+      <option name="closed" value="true" />
+      <created>1734084610598</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1734084610598</updated>
+    </task>
+    <task id="LOCAL-00003" summary="remove useless import">
+      <option name="closed" value="true" />
+      <created>1734084699352</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1734084699352</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add tests" />
+    <MESSAGE value="add BinarySearch, remove main from TwoSum" />
+    <MESSAGE value="remove useless import" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove useless import" />
   </component>
 </project>
