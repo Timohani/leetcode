@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ec3fa1f-aa20-47b1-8efa-d4f36ed37710" name="Changes" comment="change RemoveDuplicatesFromSortedArray">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/timowa/Tasks/easy/ThirdMaximumNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/timowa/Tasks/easy/ThirdMaximumNumberTest.java" afterDir="false" />
+    <list default="true" id="0ec3fa1f-aa20-47b1-8efa-d4f36ed37710" name="Changes" comment="Add ThirdMaximumNumber task">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/timowa/Tasks/easy/ContainsDuplicate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/timowa/Tasks/easy/ContainsDuplicateTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/timowa/Tasks/easy/RemoveDuplicatesFromSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/timowa/Tasks/easy/RemoveDuplicatesFromSortedArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +54,7 @@
     "Application.RomanToInteger.executor": "Run",
     "Application.TwoSum.executor": "Run",
     "JUnit.BinarySearchTest.executor": "Debug",
+    "JUnit.ContainsDuplicateTest.executor": "Run",
     "JUnit.PalindromeNumberTest.executor": "Run",
     "JUnit.RemoveDuplicatesFromSortedArrayTest.executor": "Run",
     "JUnit.RomanToIntegerTest.executor": "Run",
@@ -89,7 +89,7 @@
       <recent name="org.timowa.Tasks.easy" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ThirdMaximumNumberTest.thirdMaxTest">
+  <component name="RunManager">
     <configuration name="PalindromeNumberTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <extension name="coverage">
@@ -163,7 +163,9 @@
       <workItem from="1734087418610" duration="30000" />
       <workItem from="1734087466444" duration="422000" />
       <workItem from="1734087918286" duration="2349000" />
-      <workItem from="1734254727700" duration="1140000" />
+      <workItem from="1734254727700" duration="1355000" />
+      <workItem from="1734256110273" duration="154000" />
+      <workItem from="1734443989372" duration="1136000" />
     </task>
     <task id="LOCAL-00001" summary="Add tests">
       <option name="closed" value="true" />
@@ -197,7 +199,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734089326448</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add ThirdMaximumNumber task">
+      <option name="closed" value="true" />
+      <created>1734256086417</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1734256086417</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,6 +229,7 @@
     <MESSAGE value="add BinarySearch, remove main from TwoSum" />
     <MESSAGE value="remove useless import" />
     <MESSAGE value="change RemoveDuplicatesFromSortedArray" />
-    <option name="LAST_COMMIT_MESSAGE" value="change RemoveDuplicatesFromSortedArray" />
+    <MESSAGE value="Add ThirdMaximumNumber task" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add ThirdMaximumNumber task" />
   </component>
 </project>
