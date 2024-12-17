@@ -14,4 +14,14 @@ public class ContainsDuplicate {
         }
         return false;
     }
+
+    public static boolean containsDuplicateFast(int[] nums) {
+        HashSet<Integer> duplicate = new HashSet<>();
+        for (int num : nums) {
+            if (!duplicate.add(num)) {
+                return true;
+            }
+        }
+        return false;
+    }
 }
