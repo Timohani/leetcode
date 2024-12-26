@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ec3fa1f-aa20-47b1-8efa-d4f36ed37710" name="Changes" comment="Optimization containsDuplicate method and speed test">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/timowa/Tasks/medium/IntegerToRoman.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/timowa/Tasks/medium/IntegerToRomanTest.java" afterDir="false" />
+    <list default="true" id="0ec3fa1f-aa20-47b1-8efa-d4f36ed37710" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/amplicode-jpa.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/timowa/Tasks/easy/ElementAppearing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/timowa/Tasks/easy/ElementAppearingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +39,7 @@
     &quot;accountId&quot;: &quot;c48c4821-273c-4f60-b767-c2c846e96ada&quot;
   }
 }</component>
+  <component name="GradleModuleStateConfig" initialized="true" />
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 6
@@ -67,6 +71,7 @@
     "com.codeium.enabled": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "deletionFromPopupRequiresConfirmation": "false",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
@@ -90,62 +95,6 @@
       <recent name="org.timowa.Tasks.medium" />
       <recent name="org.timowa.Tasks.easy" />
     </key>
-  </component>
-  <component name="RunManager">
-    <configuration name="ContainsDuplicateTest.checkTimeOfMethods" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.timowa.Tasks.easy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.timowa.Tasks.easy" />
-      <option name="MAIN_CLASS_NAME" value="org.timowa.Tasks.easy.ContainsDuplicateTest" />
-      <option name="METHOD_NAME" value="checkTimeOfMethods" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PalindromeNumberTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.timowa.Tasks.easy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.timowa.Tasks.easy" />
-      <option name="MAIN_CLASS_NAME" value="org.timowa.Tasks.easy.PalindromeNumberTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ThirdMaximumNumberTest.thirdMaxTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.timowa.Tasks.easy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.timowa.Tasks.easy" />
-      <option name="MAIN_CLASS_NAME" value="org.timowa.Tasks.easy.ThirdMaximumNumberTest" />
-      <option name="METHOD_NAME" value="thirdMaxTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JUnit.ContainsDuplicateTest.checkTimeOfMethods" />
-        <item itemvalue="JUnit.ThirdMaximumNumberTest.thirdMaxTest" />
-        <item itemvalue="JUnit.PalindromeNumberTest" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -184,7 +133,8 @@
       <workItem from="1734087918286" duration="2349000" />
       <workItem from="1734254727700" duration="1355000" />
       <workItem from="1734256110273" duration="154000" />
-      <workItem from="1734443989372" duration="3724000" />
+      <workItem from="1734443989372" duration="6181000" />
+      <workItem from="1735229703635" duration="345000" />
     </task>
     <task id="LOCAL-00001" summary="Add tests">
       <option name="closed" value="true" />
@@ -242,7 +192,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734446427750</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Complete first medium task. IntegerToRoman">
+      <option name="closed" value="true" />
+      <created>1734447869422</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1734447869422</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -279,6 +237,7 @@
     <MESSAGE value="Add ThirdMaximumNumber task" />
     <MESSAGE value="Add very easy task. ContainsDuplicate" />
     <MESSAGE value="Optimization containsDuplicate method and speed test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Optimization containsDuplicate method and speed test" />
+    <MESSAGE value="Complete first medium task. IntegerToRoman" />
+    <option name="LAST_COMMIT_MESSAGE" value="Complete first medium task. IntegerToRoman" />
   </component>
 </project>
