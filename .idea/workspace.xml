@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ec3fa1f-aa20-47b1-8efa-d4f36ed37710" name="Changes" comment="ElementAppearing">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/timowa/Tasks/easy/NumberOfSegmentsInAString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/timowa/Tasks/easy/NumberOfSegmentsInAStringTest.java" afterDir="false" />
+    <list default="true" id="0ec3fa1f-aa20-47b1-8efa-d4f36ed37710" name="Changes" comment="NumberOfSegmentsInAString">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,6 +57,7 @@
     &quot;JUnit.ContainsDuplicateTest.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.ElementAppearingTest.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.IntegerToRomanTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.NumberOfSegmentsInAStringTest.countSegmentsTest.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.PalindromeNumberTest.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.RemoveDuplicatesFromSortedArrayTest.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.RomanToIntegerTest.executor&quot;: &quot;Run&quot;,
@@ -95,7 +94,23 @@
       <recent name="org.timowa.Tasks.medium" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.ConvertANumberToHexadecimalTest.toHexTest">
+    <configuration name="ConvertANumberToHexadecimalTest.toHexTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.timowa.Tasks.easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.timowa.Tasks.easy" />
+      <option name="MAIN_CLASS_NAME" value="org.timowa.Tasks.easy.ConvertANumberToHexadecimalTest" />
+      <option name="METHOD_NAME" value="toHexTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="NumberOfSegmentsInAStringTest.countSegmentsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <extension name="coverage">
@@ -114,6 +129,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ConvertANumberToHexadecimalTest.toHexTest" />
         <item itemvalue="JUnit.NumberOfSegmentsInAStringTest.countSegmentsTest" />
       </list>
     </recent_temporary>
@@ -158,7 +174,8 @@
       <workItem from="1734443989372" duration="6181000" />
       <workItem from="1735229703635" duration="626000" />
       <workItem from="1735395160547" duration="24000" />
-      <workItem from="1736783367945" duration="294000" />
+      <workItem from="1736783367945" duration="378000" />
+      <workItem from="1737192861969" duration="28000" />
     </task>
     <task id="LOCAL-00001" summary="Add tests">
       <option name="closed" value="true" />
@@ -232,7 +249,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735230212654</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="NumberOfSegmentsInAString">
+      <option name="closed" value="true" />
+      <created>1736783752071</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1736783752071</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -271,6 +296,7 @@
     <MESSAGE value="Optimization containsDuplicate method and speed test" />
     <MESSAGE value="Complete first medium task. IntegerToRoman" />
     <MESSAGE value="ElementAppearing" />
-    <option name="LAST_COMMIT_MESSAGE" value="ElementAppearing" />
+    <MESSAGE value="NumberOfSegmentsInAString" />
+    <option name="LAST_COMMIT_MESSAGE" value="NumberOfSegmentsInAString" />
   </component>
 </project>
